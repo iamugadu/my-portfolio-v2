@@ -1,7 +1,7 @@
 // Language data 
 const translations = {
     en:{
-        heroTitle: "Hi, I'm Victor 👋"
+        heroTitle: "Hi, I'm Victor 👋",
         heroSubtitle: "Creative Developer & Violinist",
         aboutTitle:"About Me", 
         aboutText:"I'm a passionate creative who blends music and technonology. I build website. play the violin, and explpre AI tools.", 
