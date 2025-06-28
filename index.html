@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victor's Portfolio v2</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+ 
+      <!-- ✨ Hero Section -->
     <header class="hero">
         <h1 class="main-title">Hi, I'm Victor👋</h1>
         <h2 class="sub-title">Creative Developer & Violinist</h2>
+        <a href="projects" class="btn">See My Work</a>
 
+        <!--🌍 Language Selector -->
         <div class="language-switcher">
             <label for="lang-select">🌐 Language:</label>
             <select id="lang-select">
@@ -20,9 +25,56 @@
                 <option value="hi">हिन्दी</option>
             </select>
         </div>
-
-        <a href="projects" class="btn">See My Work</a>
     </header>
+
+    <!-- 🧑 About Section -->
+     <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate creative who blends music and technoloy. I build websites, play violin, and explore AI tools.</p>
+     </section>
+
+     <section id="Skills">
+     <h2>Skills</h2>
+     <ul class="skill-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git & GitHub</li>
+        <li>FL studio</li>
+        <li>Canva</li>
+     </ul>
+     <!-- 💼 Projects Section-->
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>🧮Victor 1208-2 Calculator</h3>
+        <p>A replica of a real printing calculaor with working logic using HTML, CSS, and JavaScript.</p>
+        <a herf="#">View Project</a>
+      </div>
+     <div class="project-card">
+        <h3>🎨 Canva Landing Page</h3>
+        <p>A digital product landing page built with canva and responsive layut techniques.</p>
+        <a href="#">View project</a>
+     </div>
+     <!-- 📞 Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <texterea placeholder="Your Message" required></texterea>
+            <button type="submit">Send</button>
+        </form>
+
+        <!-- (✅ Success Message Area -->
+         <div id="form-message" style="margin-top: 1rem;"></div>
+      </section>
+
+      <!-- 👣 Footer -->
+       <footer>
+        <p>Made with 💻🎻 by Victor | @TekLune</p>
+       </footer>
+
+       <!-- 🔗 Link to JS -->
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,4 +1,6 @@
-* {
+/* Reset + Font Setup */
+
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +14,20 @@ body {
     line-height: 1.6;
 }
 
+/* Heading */
+h1, h2 {
+    color: #38bdf8;
+}
+
+/* Section */
+section {
+    padding: 4rem 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -19,24 +35,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 1rem;
 }
 
-.sub-title {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #94a3b8;
-}
-
-select {
-    margin-left: 0.5rem;
-    padding: 0.4rem 0.6rem;
-    border-radius: 5px;
-    border: none;
-    background: #334155;
-    color: #f1f5f9;
-}
-
+/* Button Style */
 .btn {
     margin-top: 1rem;
     background-color: #38dbf8;
@@ -51,3 +52,103 @@ select {
 .btn:hover{
     background-color: #0ea5e9;
 }
+
+/* 🌍 Language Selector */
+.language-select {
+    margin-top: 1rem;
+    background: #1e293b;
+    padding: 0.5rem 1rem;
+    color: #f1f5f9;
+}
+
+.language-select select {
+    margin-left:0.5rem;
+    padding: 0.3rem;
+    background: #0f172a;
+    color: #f1f5f9;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Skill Section */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap:1rem;
+    margin-top: 1rem
+}
+
+.skill-list li {
+    background: #1e293b;
+    padding: 0.5rem 1rem;
+    border-radius: 20px
+}
+
+/* Projectd Section */
+.project-card {
+    background: #1e293b;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+.project-card a {
+display: inline-block;
+margin-top: 0.5rem;
+color: #38bdf8;
+text-decoration: none;
+}
+
+/* Contact Section */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+padding: 0.75rem;
+border: none;
+border-radius: 5px;
+background: #334155;
+color: #f1f5f9;
+
+}
+
+form button {
+    background: #38bdf8;
+    color: #0f172a;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Foter */
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+.sub-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #94a3b8;
+}
+
+
+select {
+    margin-left: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 5px;
+    border: none;
+    background: #334155;
+    color: #f1f5f9;
+}
+
+
